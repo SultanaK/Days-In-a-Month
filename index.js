@@ -6,11 +6,17 @@ function daysInMonth(month, year) {
         }
         return `${month} is ${daysOfMonth}`;
 
-    } else if (month === 'August' || 'March' || 'August' || 'September' || 'October') {
+    } else if 
+             (month === 'August' ||
+            month === 'March' ||
+            month === 'August' ||
+            month === 'September' ||
+            month === 'October') {
         return `${month} is 30 days`;
     } else {
         return `${month} is 31 days`;
     }
 }
 daysInMonth('February', 2020);
+
 
