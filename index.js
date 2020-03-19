@@ -7,11 +7,11 @@ function daysInMonth(month, year) {
         return `${month} is ${daysOfMonth}`;
 
     } else if 
-             (month === 'August' ||
+             (month === 'June' ||
             month === 'March' ||
-            month === 'August' ||
+            month === 'May' ||
             month === 'September' ||
-            month === 'October') {
+            month === 'November') {
         return `${month} is 30 days`;
     } else {
         return `${month} is 31 days`;
