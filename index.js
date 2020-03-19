@@ -3,7 +3,9 @@ function daysInMonth(month, year) {
         var daysOfMonth = 28;
         if ((year % 400 === 0) || ((year % 100 !== 0) && (year % 4 === 0))) {
             daysOfMonth = 29;
+        
         }
+        console.log(month);
         return `${month} is ${daysOfMonth}`;
 
     } else if 
